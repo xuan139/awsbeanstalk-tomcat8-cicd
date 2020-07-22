@@ -9,4 +9,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-base-directory: 'com.webapp'
+base-directory: 'awsbeanstalk-tomcat8-cicd/com.webapp/'
