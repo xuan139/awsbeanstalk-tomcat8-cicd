@@ -8,7 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - sudo mvn package /com.webapp
+      - mvn package /com.webapp
 
 artifacts:
   files:
