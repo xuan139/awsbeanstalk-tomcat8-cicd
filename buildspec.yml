@@ -4,9 +4,9 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - mvn package '/awsbeanstalk-tomcat8-cicd/com.webapp/'
+      - mvn package 'com.webapp/'
 
 artifacts:
   files:
     - '**/*'
-base-directory: 'awsbeanstalk-tomcat8-cicd/com.webapp/'
+base-directory: 'com.webapp/'
