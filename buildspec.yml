@@ -8,8 +8,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - cd path_to_pom.xml
-      - mvn package 
+      # - cd path_to_pom.xml
+      - mvn package '**/*'
 
 artifacts:
   files:
