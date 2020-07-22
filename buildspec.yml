@@ -4,9 +4,8 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - mvn package 'com.webapp/'
+      - mvn package 
 
 artifacts:
   files:
-    - '**/*'
-base-directory: 'com.webapp/'
+    - target/com.webapp.war
