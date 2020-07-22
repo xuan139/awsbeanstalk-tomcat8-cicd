@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - pwd
+      - cd 'com.webapp'
       - mvn package 
 
 artifacts:
