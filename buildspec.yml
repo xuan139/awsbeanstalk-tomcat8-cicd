@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
       # - cd path_to_pom.xml
-      - mvn package '**/*'
+      - mvn package '/com.webapp/'
 
 artifacts:
   files:
